@@ -55,7 +55,3 @@ const createCard = async function(req,res){
        }
         
      module.exports = {createCard, getCard}
-//   const cardData = await cardModel.find({options, status:"ACTIVE"})
-//         if(!cardData){
-//             return res.status(404).send({status:false, message: "Card Data is not present"})
-//         }
